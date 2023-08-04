@@ -3,6 +3,10 @@ class Person{
         this.fname=fname
         this.lname=lname
     }
+
+    toString(){
+        return this.fname+"-"+this.lname
+    }
 }
 
 class Car{
@@ -21,3 +25,4 @@ const tatacar = new Car(18)
 console.log(Roland.fname)
 console.log(Roland.lname)
 console.log(tatacar.kms)
+console.log(Roland.toString())
